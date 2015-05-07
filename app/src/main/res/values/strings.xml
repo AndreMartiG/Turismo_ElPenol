@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">El Peñol</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="imagename">shield</string>
+    <string name="imagename2">flag</string>
+
+    <string name="action_hotels">Hotels</string>
+    <string name="action_bars">Bars</string>
+    <string name="action_turism">Tourist Sites</string>
+    <string name="action_demograf">Demograp. Info</string>
+    <string name="action_about">About</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hoteles">Hotels</string>
+    <string name="title_activity_bares">Bars</string>
+    <string name="title_activity_turismo">Tourism</string>
+    <string name="title_activity_demograf">Demographic Info</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- Textos info hoteles. -->
+    <string name="title_hotel1">Hotel Casa Blanca</string>
+    <string name="title_hotel2">Hotel Lindo Amanecer</string>
+    <string name="title_hotel3">Hotel Dumar</string>
+
+    <string name="d_hotel1">Address: Cra 16 # 7-33
+                            Phone: 8515982
+                            Capacity: 16 Rooms
+                            8 Singles, 8 Doubles</string>
+
+    <string name="d_hotel2">Address: Transv 6 # 20-13
+                            Phone: 8515894
+                            Capacity: 15 Rooms:
+                            11 Singles, 4 Doubles</string>
+
+    <string name="d_hotel3">Address: Transv 2 # 1-40
+                            Phone: 8515794</string>
+
+    <!-- Textos info bares. -->
+    <string name="title_bar1">Cafet-Bar La Cumbre</string>
+    <string name="title_bar2">Comidas Rapidas Lucky</string>
+    <string name="title_bar3">Grill-Bar El Potrillo</string>
+
+    <string name="d_bar1">Address: Cra 17 # 7-30
+                            Phone: 8516602
+                            </string>
+
+    <string name="d_bar2">Address: Cra 23aa # 8-63
+                            Phone: 8517557
+                            Open 24 Hours</string>
+
+    <string name="d_bar3">Address: Track Guatape - El Peñol
+                            Phone: 3116089133
+                            Also Hotel 24 Hours</string>
+
+
+    <!-- Textos info turistica. -->
+    <string name="title_embalse">Embalse Viejo Peñol</string>
+    <string name="title_casam">Casa Museo</string>
+    <string name="title_vacac">Peninsula Vacacional</string>
+
+     <string name="description">This municipality located in eastern Antioquia has places for religious pilgrimage and for rest
+     </string>
+
+    <string name="d_embalse">This site was for more than 200 years the urban center, there is a Cross where a Mass is done in the first festive Monday of the year
+     </string>
+    
+     <string name="d_casam">The House Museum is the only house that remains of the urban center of El Peñol, after the flood. Here some objects from Peñol old buildings and history are preserved
+     </string>
+
+    <string name="d_vacac">The center itself has a plant equipped arcade, which is dominated by water activities, plus space for camping and to be in contact with nature.
+     </string>
+
+    <!-- Informac demografica -->
+    <string name="total_populat">Population</string>
+    <string name="data_t_pop">19146 hab. (2009)</string>
+
+    <string name="urb_populat">Urban</string>
+    <string name="data_urb_pop">8615</string>
+
+    <string name="rural_populat">Rural</string>
+    <string name="data_rur_pop">7531</string>
+
+    <string name="alfabet">Literacy</string>
+    <string name="data_t_alf">90.8% (2005)</string>
+
+    <string name="data_urb_alf">92.7%</string>
+
+    <string name="data_rur_alf">88.8</string>
+
+    <string name="etnograf">Ethnography (2005)</string>
+
+    <string name="blan_mezt">White and Mestizo</string>
+    <string name="data_blanmezt">99.6%</string>
+
+    <string name="afrocol">Afrocolombian</string>
+    <string name="data_afrocol">0.4%</string>
+
+    <!-- Informac desarrollador -->
+    <string name="desar_by">Developed by</string>
+    <string name="desar_name">Andres Martinez</string>
+    <string name="desar_dep">Electronic Engineering Student</string>
+    <string name="desar_ent">University of Antioquia</string>
+
+</resources>

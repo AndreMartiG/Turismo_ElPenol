@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/lavenderblush</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/green</item>
+    </style>
+
+</resources>
