@@ -1,6 +1,9 @@
 package com.andresmartinez.practica4;
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,6 +16,13 @@ public class ElPenol extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_el_penol);
+
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
+        Fraginicio fragment = new Fraginicio();
+        fragmentTransaction.replace(android.R.id.content, fragment).commit();
+
     }
 
 
@@ -30,26 +40,34 @@ public class ElPenol extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
         //noinspection SimplifiableIfStatement
 
+        if (id == R.id.action_start) {
+            Fraginicio fragment = new Fraginicio();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+        }
+
         if (id == R.id.action_hotels) {
-            Intent i = new Intent(this, Hoteles.class);
-            startActivity(i);
+            Fraghoteles fragment = new Fraghoteles();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
         }
 
         if (id == R.id.action_bars) {
-            Intent i = new Intent(this, Bares.class);
-            startActivity(i);
+            Fragbares fragment = new Fragbares();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
         }
 
         if (id == R.id.action_turismo) {
-            Intent i = new Intent(this, Turismo.class);
-            startActivity(i);
+            Fragturismo fragment = new Fragturismo();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
         }
 
         if (id == R.id.action_infodemogr) {
-            Intent i = new Intent(this, Demograf.class);
-            startActivity(i);
+            Fragdemograf fragment = new Fragdemograf();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
         }
 
         if (id == R.id.action_about) {

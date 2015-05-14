@@ -17,22 +17,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Hoteles"
-            android:label="@string/title_activity_hoteles" >
-        </activity>
-        <activity
-            android:name=".Bares"
-            android:label="@string/title_activity_bares" >
-        </activity>
-        <activity
-            android:name=".Turismo"
-            android:label="@string/title_activity_turismo" >
-        </activity>
-        <activity
-            android:name=".Demograf"
-            android:label="@string/title_activity_demograf" >
-        </activity>
-        <activity
             android:name=".About"
             android:label="@string/title_activity_about"
             android:theme="@android:style/Theme.Dialog">
