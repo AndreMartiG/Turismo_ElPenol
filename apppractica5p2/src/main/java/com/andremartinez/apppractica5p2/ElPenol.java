@@ -17,19 +17,13 @@ public class ElPenol extends FragmentActivity implements    //Esta es la activid
         ListaFragment fragment = new ListaFragment();
         setContentView(R.layout.activity_el_penol);
 
-        if (findViewById(R.id.fragment_container) != null) {    //fragment_container esta en el modo portrate
-            if (savedInstanceState != null) {
-                return;
-            }
+        if (findViewById(R.id.contenidoFragment) == null) {    //fragment_container: esta en el modo portrate
             //Carga la lista en "fragment_container"
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, fragment, null).commit();
+                    .replace(android.R.id.content, fragment, null).commit();
         }
 
         else {      //Si esta en modo landscape carga la lista en "tituloFragment"
-            if (savedInstanceState != null) {
-                return;
-            }
             getSupportFragmentManager().beginTransaction()
                     .replace(R.id.tituloFragment, fragment, null).commit();
         }
@@ -46,8 +40,10 @@ public class ElPenol extends FragmentActivity implements    //Esta es la activid
 
         if (contFragment != null) {
             // Si está disponible, estamos en la versión de 2 paneles
+            contFragment.land_c = true;
             contFragment.actualizarContenido(position);
             //segun esto el metodo "actualizarContenido()" solo se usa en el modo landscape
+
         } else {
             // Si no está disponible, estamos en el layout
             // del FrameLayout, y tenemos que cambiar los Fragment
@@ -57,11 +53,12 @@ public class ElPenol extends FragmentActivity implements    //Esta es la activid
             // Establecemos la posición que hemos elegido
             args.putInt(ContenidoFragment.POSICION, position);
             contFragment.setArguments(args);
+            contFragment.land_c = false;
 
             // Reemplazamos el Fragment que había por el nuevo
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, contFragment)
-                    .addToBackStack(null).commit();
+                    .replace(android.R.id.content, contFragment)
+                    .commit();
         }
     }
 
@@ -80,6 +77,12 @@ public class ElPenol extends FragmentActivity implements    //Esta es la activid
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
+        if (id == R.id.action_lista) {          //Para regresar a la lista en el modo portrate
+            ListaFragment fragment = new ListaFragment();
+            getSupportFragmentManager().beginTransaction()
+                    .replace(android.R.id.content, fragment, null).commit();
+        }
+
         if (id == R.id.action_about) {
             Intent i = new Intent(this, About.class);
             startActivity(i);
