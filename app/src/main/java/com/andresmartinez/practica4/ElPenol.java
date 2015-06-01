@@ -1,7 +1,6 @@
 package com.andresmartinez.practica4;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Intent;
@@ -68,6 +67,11 @@ public class ElPenol extends Activity {
         if (id == R.id.action_infodemogr) {
             Fragdemograf fragment = new Fragdemograf();
             fragmentTransaction.replace(android.R.id.content, fragment).commit();
+        }
+
+        if (id == R.id.action_ubicac) {
+            Intent i = new Intent(this, MapsElPenol.class);
+            startActivity(i);
         }
 
         if (id == R.id.action_about) {

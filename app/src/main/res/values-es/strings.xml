@@ -11,6 +11,7 @@
     <string name="action_bars">Bares</string>
     <string name="action_turism">Sitios Turisticos</string>
     <string name="action_demograf">Info. Demografica</string>
+    <string name="action_ubicac">Ubicación</string>
     <string name="action_about">Acerca de</string>
 
     <string name="hello_world">Hola Mundo!</string>
