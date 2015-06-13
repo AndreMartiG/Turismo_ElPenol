@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">El Peñol</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="imagename">escudo</string>
+    <string name="imagename2">bandera</string>
+
+    <string name="action_start">Inicio</string>
+    <string name="action_hotels">Hoteles</string>
+    <string name="action_bars">Bares</string>
+    <string name="action_turism">Sitios Turisticos</string>
+    <string name="action_demograf">Info. Demografica</string>
+    <string name="action_list">Lista</string>
+    <string name="action_about">Acerca de</string>
+
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="title_activity_hoteles">Hoteles</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_turismo">Turismo</string>
+    <string name="title_activity_demograf">Info Demografica</string>
+    <string name="title_activity_about">Acerca de</string>
+
+    <!-- Textos info hoteles. -->
+    <string name="d_hotel1">Direcc: Cra 16 # 7-33
+                            Telefono: 8515982
+                            Capacidad: 16 Habitaciones:
+                            8 Simples, 8 Dobles</string>
+
+    <string name="d_hotel2">Direcc: Transv 6 # 20-13
+                            Telefono: 8515894
+                            Capacidad: 15 Habitaciones:
+                            11 Simples, 4 Dobles</string>
+
+    <string name="d_hotel3">Direcc: Transv 2 # 1-40
+                            Telefono: 8515794</string>
+
+    <!-- Textos info bares. -->
+    <string name="title_bar1">Cafet-Bar La Cumbre</string>
+    <string name="title_bar2">Comidas Rapidas Lucky</string>
+    <string name="title_bar3">Parrilla-Bar El Potrillo</string>
+
+    <string name="d_bar1">Direcc: Cra 17 # 7-30
+                            Telefono: 8516602
+                            </string>
+
+    <string name="d_bar2">Direcc: Cra 23aa # 8-63
+                          Telefono: 8517557
+                          Abierto 24 Horas</string>
+
+    <string name="d_bar3">Direcc: Vía Guatape - El Peñol
+                          Telefono: 3116089133
+                          También Hotel 24 Horas</string>
+
+    <!-- Textos info turistica. -->
+    <string name="description">Este municipio ubicado en el Oriente Antioqueño ofrece lugares para la peregrinacion religiosa y para el descanso
+     </string>
+
+    <string name="d_embalse">En este sitio estuvo por mas de 200 años la cabecera urbana de El Peñol, allí se levantó una cruz donde se hace una misa el primer lunes festivo del año
+     </string>
+
+    <string name="d_casam">La Casa Museo es la única vivienda que queda de la cabecera urbana de El Peñol, después de la inundación. En ella se conservan algunos objetos propios de las construcciones del viejo Peñol y su historia
+     </string>
+
+    <string name="d_vacac">El centro en sí cuenta con una planta dotada de juegos recreativos, los cuales predominan las actividades acuaticas, además de espacios para camping y para estar en contacto con la naturaleza
+     </string>
+
+    <!-- Informac demografica -->
+    <string name="total_populat">Población Total</string>
+    <string name="urb_populat">Urbana</string>
+    <string name="alfabet">Alfabetismo</string>
+    <string name="etnograf">Etnografia (2005)</string>
+    <string name="blan_mezt">Mestizos y Blancos</string>
+    <string name="afrocol">Afrocolombianos</string>
+
+    <!-- Informac desarrollador -->
+    <string name="desar_by">Desarrollado por</string>
+    <string name="desar_dep">Estudiante de Ingenieria Electronica</string>
+    <string name="desar_ent">Universidad de Antioquia</string>
+
+</resources>

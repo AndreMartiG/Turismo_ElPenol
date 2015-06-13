@@ -6,10 +6,12 @@
     <string name="imagename">escudo</string>
     <string name="imagename2">bandera</string>
 
+    <string name="action_start">Inicio</string>
     <string name="action_hotels">Hoteles</string>
     <string name="action_bars">Bares</string>
     <string name="action_turism">Sitios Turisticos</string>
     <string name="action_demograf">Info. Demografica</string>
+    <string name="action_ubicac">Ubicación</string>
     <string name="action_about">Acerca de</string>
 
     <string name="hello_world">Hola Mundo!</string>
@@ -28,7 +30,7 @@
     <string name="d_hotel2">Direcc: Transv 6 # 20-13
                             Telefono: 8515894
                             Capacidad: 15 Habitaciones:
-                            11 Singles, 4 Dobles</string>
+                            11 Simples, 4 Dobles</string>
 
     <string name="d_hotel3">Direcc: Transv 2 # 1-40
                             Telefono: 8515794</string>

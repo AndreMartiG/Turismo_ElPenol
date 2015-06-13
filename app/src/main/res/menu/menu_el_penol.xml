@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ElPenol">
 
+    <item android:id="@+id/action_start" android:title="@string/action_start"
+        android:orderInCategory="100" android:showAsAction="never" />
+
     <item android:id="@+id/action_hotels" android:title="@string/action_hotels"
         android:orderInCategory="100" android:showAsAction="never" />
 
@@ -13,6 +16,9 @@
         android:orderInCategory="100" android:showAsAction="never" />
 
     <item android:id="@+id/action_infodemogr" android:title="@string/action_demograf"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+    <item android:id="@+id/action_ubicac" android:title="@string/action_ubicac"
         android:orderInCategory="100" android:showAsAction="never" />
 
     <item android:id="@+id/action_about" android:title="@string/action_about"
